@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="learningTestNG" duration-ms="289" started-at="2017-07-18T23:12:02Z" finished-at="2017-07-18T23:12:03Z">
+    <groups>
+    </groups>
+    <test name="ApplicationTest" duration-ms="19" started-at="2017-07-18T23:12:02Z" finished-at="2017-07-18T23:12:02Z">
+      <class name="testcases.ApplicationTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.ApplicationTest@66048bfd]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-07-18T19:12:02Z" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="doLogin()[pri:1, instance:testcases.ApplicationTest@66048bfd]" name="doLogin" duration-ms="2" started-at="2017-07-18T19:12:02Z" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.ApplicationTest@66048bfd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:12:02Z" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.ApplicationTest@66048bfd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:12:02Z" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.ApplicationTest@66048bfd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:12:02Z" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="doChangePwd()[pri:2, instance:testcases.ApplicationTest@66048bfd]" name="doChangePwd" duration-ms="0" started-at="2017-07-18T19:12:02Z" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doChangePwd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.ApplicationTest@66048bfd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:12:02Z" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.ApplicationTest@66048bfd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:12:02Z" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.ApplicationTest@66048bfd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:12:02Z" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="doLogout()[pri:3, instance:testcases.ApplicationTest@66048bfd]" name="doLogout" duration-ms="0" started-at="2017-07-18T19:12:02Z" depends-on-methods="testcases.ApplicationTest.doChangePwd" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogout -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.ApplicationTest@66048bfd]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-07-18T19:12:02Z" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.ApplicationTest -->
+    </test> <!-- ApplicationTest -->
+    <test name="Login" duration-ms="37" started-at="2017-07-18T23:12:03Z" finished-at="2017-07-18T23:12:03Z">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:testcases.LoginTest@649d209a]" name="doLoginTest" duration-ms="1" started-at="2017-07-18T19:12:03Z" data-provider="getData" finished-at="2017-07-18T19:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pwd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[151]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:testcases.LoginTest@649d209a]" name="doLoginTest" duration-ms="1" started-at="2017-07-18T19:12:03Z" data-provider="getData" finished-at="2017-07-18T19:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uname3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pwd3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[415]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.LoginTest@649d209a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:12:03Z" finished-at="2017-07-18T19:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.LoginTest@649d209a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:12:03Z" finished-at="2017-07-18T19:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.LoginTest@649d209a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:12:03Z" finished-at="2017-07-18T19:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:1, instance:testcases.LoginTest@649d209a]" name="doLoginTest" duration-ms="0" started-at="2017-07-18T19:12:03Z" data-provider="getData" finished-at="2017-07-18T19:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uname3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pwd3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[415]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Login -->
+    <test name="Register" duration-ms="7" started-at="2017-07-18T23:12:03Z" finished-at="2017-07-18T23:12:03Z">
+      <class name="testcases.ApplicationTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.ApplicationTest@66048bfd]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2017-07-18T19:12:02Z" finished-at="2017-07-18T19:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.ApplicationTest@66048bfd]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-07-18T19:12:03Z" finished-at="2017-07-18T19:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.ApplicationTest -->
+      <class name="testcases.RegisterTest">
+        <test-method status="FAIL" signature="doRegisterTest()[pri:1, instance:testcases.RegisterTest@71c7db30]" name="doRegisterTest" duration-ms="2" started-at="2017-07-18T19:12:03Z" finished-at="2017-07-18T19:12:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	expected [abcd] but found [abcdrtd],
+	expected [d] but found [a]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [abcd] but found [abcdrtd],
+	expected [d] but found [a]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at testcases.RegisterTest.doRegisterTest(RegisterTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterTest -->
+      </class> <!-- testcases.RegisterTest -->
+    </test> <!-- Register -->
+  </suite> <!-- learningTestNG -->
+</testng-results>

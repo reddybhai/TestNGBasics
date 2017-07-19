@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- parallel = "tests" -->
+<suite name = "learningTestNG" >
+
+	<test  name = "ApplicationTest" allow-return-values = "true">
+		<classes>
+			<class  name = "testcases.ApplicationTest" />
+		</classes>
+	</test>
+
+	<test  name = "Login" allow-return-values = "true">
+		<classes>
+			<class  name = "testcases.LoginTest" />
+		</classes>
+	</test>
+	
+	<test  name = "Register" allow-return-values = "true">
+		<classes>
+			<class  name = "testcases.RegisterTest" />
+		</classes>
+	</test>
+</suite>

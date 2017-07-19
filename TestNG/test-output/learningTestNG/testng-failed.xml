@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [learningTestNG]">
+  <test name="Register(failed)">
+    <classes>
+      <class name="testcases.RegisterTest">
+        <methods>
+          <include name="doRegisterTest"/>
+        </methods>
+      </class> <!-- testcases.RegisterTest -->
+    </classes>
+  </test> <!-- Register(failed) -->
+</suite> <!-- Failed suite [learningTestNG] -->
